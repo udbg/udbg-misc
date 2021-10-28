@@ -3,7 +3,7 @@ This repo contains miscellaneous script which can make udbg more powerful
 
 ## Install
 
-Requirement: [udbg 0.2.1](https://github.com/udbg/udbg/releases)
+Requirements: git, [udbg 0.2.1](https://github.com/udbg/udbg/releases)
 
 1. Merge the following configuration to your `udbg-config.lua`
     ```lua
@@ -15,3 +15,6 @@ Requirement: [udbg 0.2.1](https://github.com/udbg/udbg/releases)
 3. Restart udbg
 
 ## Command
+
+`udbg/command/`
+- `vmpimpfix` A tool which can parse the import list obfuscated by VMP, inspired by https://github.com/mike1k/VMPImportFixer
